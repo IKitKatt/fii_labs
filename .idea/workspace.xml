@@ -21,10 +21,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="516c33c8-553b-4d5c-9e7c-2a01a7c99314" name="Changes" comment="new lab">
-      <change afterPath="$PROJECT_DIR$/lab10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab9.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="516c33c8-553b-4d5c-9e7c-2a01a7c99314" name="Changes" comment="lab 11 and 12">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +34,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,42 +71,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.lab1.cpp.executor": "Run",
-    "C/C++ File.lab10.cpp.executor": "Run",
-    "C/C++ File.lab5.cpp.executor": "Run",
-    "C/C++ File.lab6.cpp.executor": "Run",
-    "C/C++ File.lab7.cpp.executor": "Run",
-    "C/C++ File.lab8.cpp.executor": "Run",
-    "C/C++ File.lab9.cpp.executor": "Run",
-    "CMake Application.fii_labs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/admin/CLionProjects/fii_labs/main.cpp",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.lab1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.lab10.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.lab5.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.lab6.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.lab7.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.lab8.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.lab9.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.fii_labs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/admin/CLionProjects/fii_labs/main.cpp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\CLionProjects\fii_labs\Builds" />
       <recent name="C:\Users\admin\CLionProjects\fii_labs" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.lab10.cpp">
+  <component name="RunManager" selected="CMake Debug.test">
+    <configuration name="test" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" singleton="false">
+      <method v="2" />
+    </configuration>
     <configuration name="lab10.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fii_labs" TARGET_NAME="lab10.cpp" CONFIG_NAME="lab10.cpp">
       <option name="sourceFile" value="lab10.cpp" />
       <method v="2">
@@ -146,6 +154,7 @@
       <item itemvalue="C/C++ File.lab8.cpp" />
       <item itemvalue="C/C++ File.lab9.cpp" />
       <item itemvalue="C/C++ File.lab10.cpp" />
+      <item itemvalue="CMake Debug.test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -159,7 +168,8 @@
       <workItem from="1743528317075" duration="1514000" />
       <workItem from="1743531723233" duration="2674000" />
       <workItem from="1743575279710" duration="3033000" />
-      <workItem from="1743627413762" duration="1398000" />
+      <workItem from="1743627413762" duration="1715000" />
+      <workItem from="1743629465715" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary=".exe moved to Builds">
       <option name="closed" value="true" />
@@ -177,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743576240191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab 11 and 12">
+      <option name="closed" value="true" />
+      <created>1743628837379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743628837379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".exe moved to Builds" />
     <MESSAGE value="new lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="new lab" />
+    <MESSAGE value="lab 11 and 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 11 and 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

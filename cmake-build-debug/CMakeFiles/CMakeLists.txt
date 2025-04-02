@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(fii_labs)
+add_executable(fii_labs lab5.cpp)
+add_executable(fii_labs lab6.cpp)
+add_executable(fii_labs lab7.cpp)
+add_executable(fii_labs lab8.cpp)
+add_executable(fii_labs lab9.cpp)
+add_executable(fii_labs lab10.cpp)
