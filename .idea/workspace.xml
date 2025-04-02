@@ -21,11 +21,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="516c33c8-553b-4d5c-9e7c-2a01a7c99314" name="Changes" comment=".exe moved to Builds">
-      <change afterPath="$PROJECT_DIR$/lab8.cpp" afterDir="false" />
+    <list default="true" id="516c33c8-553b-4d5c-9e7c-2a01a7c99314" name="Changes" comment="new lab">
+      <change afterPath="$PROJECT_DIR$/lab10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab9.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/lab6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/lab6.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +69,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "C/C++ File.lab1.cpp.executor": "Run",
+    "C/C++ File.lab10.cpp.executor": "Run",
     "C/C++ File.lab5.cpp.executor": "Run",
     "C/C++ File.lab6.cpp.executor": "Run",
     "C/C++ File.lab7.cpp.executor": "Run",
     "C/C++ File.lab8.cpp.executor": "Run",
+    "C/C++ File.lab9.cpp.executor": "Run",
     "CMake Application.fii_labs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -96,9 +98,16 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\CLionProjects\fii_labs\Builds" />
+      <recent name="C:\Users\admin\CLionProjects\fii_labs" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.lab8.cpp">
+  <component name="RunManager" selected="C/C++ File.lab10.cpp">
+    <configuration name="lab10.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fii_labs" TARGET_NAME="lab10.cpp" CONFIG_NAME="lab10.cpp">
+      <option name="sourceFile" value="lab10.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lab5.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fii_labs" TARGET_NAME="lab5.cpp" CONFIG_NAME="lab5.cpp">
       <option name="sourceFile" value="lab5.cpp" />
       <method v="2">
@@ -124,11 +133,19 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab9.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fii_labs" TARGET_NAME="lab9.cpp" CONFIG_NAME="lab9.cpp">
+      <option name="sourceFile" value="lab9.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="C/C++ File.lab7.cpp" />
       <item itemvalue="C/C++ File.lab5.cpp" />
       <item itemvalue="C/C++ File.lab6.cpp" />
       <item itemvalue="C/C++ File.lab8.cpp" />
+      <item itemvalue="C/C++ File.lab9.cpp" />
+      <item itemvalue="C/C++ File.lab10.cpp" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -141,7 +158,8 @@
       <updated>1743528315398</updated>
       <workItem from="1743528317075" duration="1514000" />
       <workItem from="1743531723233" duration="2674000" />
-      <workItem from="1743575279710" duration="930000" />
+      <workItem from="1743575279710" duration="3033000" />
+      <workItem from="1743627413762" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary=".exe moved to Builds">
       <option name="closed" value="true" />
@@ -151,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743533231658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new lab">
+      <option name="closed" value="true" />
+      <created>1743576240191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743576240191</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".exe moved to Builds" />
-    <option name="LAST_COMMIT_MESSAGE" value=".exe moved to Builds" />
+    <MESSAGE value="new lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="new lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
